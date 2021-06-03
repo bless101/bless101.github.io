@@ -1,0 +1,68 @@
+@font-face{
+font-family:"Browser-Cyberlink-New";
+src:url("../fonts/Browser-Cyberlink-New.ttf");	
+}
+body{
+ background-image: url("../images/lonerboy.jpg"); 
+}
+
+
+
+#entete{
+font-size:50px;
+text-align:center;
+font-family:browser-cyberlink-new;
+margin-top:70px;
+color:white;
+}
+
+.login{
+width: 80px;
+height:60px;
+font-size: 30px black;
+border:1px solid black;
+font-weight:bold ;
+background-color:white;
+margin-top:50px;
+margin-left:70px;
+font-family:browser-cyberlink-new;
+color: black;}
+
+#sidemenu ul{
+position: absolute;
+top: 0;
+left: -50px;
+font-size: 30px;
+margin-left:100px;
+margin-top:350px;
+color:white;
+font-family:browser-cyberlink-new;
+list-style-type: none;
+font-weight:bold;
+background-color: white;
+}
+
+#sidemenu ul a{ 
+	color: black;
+}	
+
+#contenu {
+font-family:Browser-Cyberlink-New;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+margin-top:90px;
+color:white;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+   bottom:-8px;
+  font-size:9px;
+  width: 100%;
+  color: white;
+  text-align: center;
+  font-family:browser-cyberlink-new;
+}

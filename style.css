@@ -1,0 +1,241 @@
+body{
+ background-image: url("../images/matrix.gif");
+  background-color: 	
+}
+
+#entete{
+font-size:100px;
+text-align:center;
+font-family:browser-cyberlink-new;
+margin-top:50px;
+color:white;
+}
+@font-face{
+font-family:"Browser-Cyberlink-New";
+src:url("../fonts/Browser-Cyberlink-New.ttf");	
+}
+
+#contenu{
+width:200px;
+height:200px;
+position: fixed;
+top: 50%;
+left: 50%;
+margin-top: -185px;
+margin-left: -100px;
+font-family:browser-cyberlink-new;
+color:white;
+}
+
+.contenu2{
+position:relative;
+height:200px;
+width:200px;
+margin:200px auto;	
+border-radius: 50%;
+box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.2);
+transition: all .4s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+transition: all .4s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+-moz-transition: all .4s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+-webkit-transition: all .4s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+}
+
+.contenu2 button{
+position:absolute;
+height:30%;
+width:30%;
+border: none;
+outline: none;
+cursor: pointer;
+margin-top:350px;
+margin-left:45px;
+background-color:yellow;	
+text-align:center;
+transition: all .4s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+-o-transition: all .4s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+-moz-transition: all .4s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+-webkit-transition: all .4s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+}
+
+
+
+.contenu2 button:hover{
+background-color:white;	
+}
+
+.contenu2 button:hover i
+{
+animation: iconAnim .5s linear forwards ;
+ }
+ /*animation*/
+ 
+@keyframes anim {
+
+  0% {
+
+  top: 240px;
+ }
+
+   50% {
+
+  top: 20px;
+
+        }
+
+  100% {
+
+     top: -140px;
+
+      }
+
+  }
+
+
+@keyframes iconAnim {
+
+0% {
+     transform: scale(1);
+}
+50% {
+transform: scale(1.2);
+}
+100% {
+transform: scale(1);
+}
+  }
+  
+ .animClass {
+animation: anim 2s .5s linear forwards infinite;
+}
+	
+
+
+.contenu2 i{
+font-size:40px;
+color:red;	
+}
+
+.contenu2 #playBtn{
+display:block;	
+}
+
+.contenu2 #pauseBtn{
+display:none;	
+}
+
+.contenu2 .songIcons {
+position: absolute;
+height: 50px;
+width: 100%;
+ bottom: 0;
+left: 0;
+top: 240px;
+}
+
+    
+
+.contenu2 .songIcons #a {
+position: absolute;
+color: #A3CB38;
+font-size: 30px;
+top: 30px;
+left: 14px;
+    }
+
+    
+
+.contenu2 .songIcons #b {
+position: absolute;
+color: #20bf6b;
+font-size: 20px;
+top: -10px;
+left: 160px;
+    }
+
+    
+
+.contenu2 .songIcons #c {
+ position: absolute;
+color: #12CBC4;
+ font-size: 40px;
+top: -40px;
+left: 40px;
+    }
+
+    
+
+.contenu2 .songIcons #d {
+position: absolute;
+color: #B53471;
+font-size: 16px;
+top: -5px;
+left: 73px;
+}
+
+.contenu2 .songIcons #e {
+position: absolute;
+color: #8e44ad;
+font-size: 44px;
+top: 14px;
+left: 100px;
+}
+
+.login{
+width: 80px;
+height:60px;
+font-size: 30px black;
+border:1px solid black;
+font-weight:bold ;
+background-color:white;
+margin-top:50px;
+margin-left:70px;
+font-family:browser-cyberlink-new;
+color: black;}
+
+
+#sidemenu ul{
+position: absolute;
+top: 0;
+left: 25px;
+font-size: 30px;
+margin-left:50px;
+margin-top:350px;
+color:white;
+font-family:browser-cyberlink-new;
+list-style-type: none;
+font-weight:bold;
+background-color: white;
+
+}
+
+#sidemenu ul a{ 
+color: black;
+}	
+
+.more{
+width:150px;
+background:none;
+border:2px solid #4caf50;
+color:white;
+padding:5px;
+font-size:18px;
+cursor:pointer;
+margin:12px 0;
+text-align:center;
+cursor: pointer;
+font-weight:200;
+font-family:browser-cyberlink-new;
+margin-left:850px;
+margin-top:30px;
+}
+
+.footer {
+  position:absolute;
+  left: 0;
+  bottom:-8px;
+  font-size:9px;
+  width: 100%;
+  color: white;
+  text-align: center;
+  font-family:browser-cyberlink-new;
+}
